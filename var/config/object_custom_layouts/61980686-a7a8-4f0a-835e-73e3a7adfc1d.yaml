@@ -1,0 +1,68 @@
+pimcore:
+    objects:
+        custom_layouts:
+            definitions:
+                61980686-a7a8-4f0a-835e-73e3a7adfc1d:
+                    id: 61980686-a7a8-4f0a-835e-73e3a7adfc1d
+                    name: default
+                    description: ''
+                    creationDate: 1685113738
+                    modificationDate: 1685118002
+                    userOwner: 2
+                    classId: productId
+                    layoutDefinitions:
+                        name: pimcore_root
+                        type: null
+                        region: null
+                        title: null
+                        width: 0
+                        height: 0
+                        collapsible: false
+                        collapsed: false
+                        bodyStyle: null
+                        datatype: layout
+                        children:
+                            -
+                                name: Name
+                                type: null
+                                region: null
+                                title: Name
+                                width: ''
+                                height: ''
+                                collapsible: false
+                                collapsed: false
+                                bodyStyle: ''
+                                datatype: layout
+                                children: {  }
+                                locked: false
+                                fieldtype: text
+                                html: ''
+                                renderingClass: ''
+                                renderingData: ''
+                                border: false
+                            -
+                                name: Type
+                                type: null
+                                region: null
+                                title: Type
+                                width: ''
+                                height: ''
+                                collapsible: false
+                                collapsed: false
+                                bodyStyle: ''
+                                datatype: layout
+                                children: {  }
+                                locked: false
+                                fieldtype: text
+                                html: ''
+                                renderingClass: ''
+                                renderingData: ''
+                                border: false
+                        locked: false
+                        fieldtype: panel
+                        layout: null
+                        border: false
+                        icon: null
+                        labelWidth: 100
+                        labelAlign: left
+                    default: 0

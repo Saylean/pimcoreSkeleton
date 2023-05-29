@@ -1,0 +1,5 @@
+umg:
+    resource: "@UMGBundle/src/Controller/"
+    type:     annotation
+    prefix:   /
+
